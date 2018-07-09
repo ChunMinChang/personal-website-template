@@ -1,0 +1,159 @@
+<!-- Bootstrap References:
+  1. https://www.w3schools.com/bootstrap4/bootstrap_scrollspy.asp
+    - Know what data-spy, data-target and data-offset are used for
+  2. https://getbootstrap.com/docs/4.1/getting-started/introduction/
+    - Know what js and css do we need to import
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- css settings
+  ========================================================================= -->
+  <!-- bootstrap css -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#page-top">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">section 1
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">section 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">section 3</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Section 4
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#section4-1">section 4-1</a>
+            <a class="dropdown-item" href="#section4-2">section 4-2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section 1 -->
+  <section id="section1" class="section">
+    <div class="container-fluid">
+      <h1>Section 1</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+  </section>
+
+  <!-- Section 2 -->
+  <section id="section2" class="section">
+    <div class="container-fluid">
+      <h1>Section 2</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+  </section>
+
+  <!-- Section 3 -->
+  <section id="section3" class="section">
+    <div class="container-fluid">
+      <h1>Section 3</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+  </section>
+
+  <!-- Section 4-1 -->
+  <section id="section4-1" class="section">
+    <div class="container-fluid">
+      <h1>Section 4 Submenu 1</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+  </section>
+
+  <!-- Section 4-2 -->
+  <section id="section4-2" class="section">
+    <div class="container-fluid">
+      <h1>Section 4 Submenu 2</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    </div>
+  </section>
+
+  <!-- javascript libraries
+  ========================================================================= -->
+  <!-- bootstrap js (including jQuery and Popper.js) -->
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"></script> -->
+  <!-- The jquery slim version doesn't support $(...).animate(...).
+       Use min version instead. -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"></script>
+
+  <!-- Smooth scrolling animation -->
+  <script>
+    $(document).ready(function(){
+      // Add scrollspy to <body>
+      // $("body").scrollspy({target: ".navbar", offset: 50});
+      // These attributes are already set in the body tag directly.
+
+      // Add smooth scrolling on all links inside the navbar.
+      $("nav a").on("click", function(event) {
+        // Make sure this.hash has a value before overriding default behavior.
+        if (this.hash === "") {
+          return;
+        }
+
+        // Prevent default anchor click behavior.
+        event.preventDefault();
+
+        // Store hash.
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes
+        // to scroll to the specified area.
+        $("html, body").animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          // Add hash (#) to URL when done scrolling (default click behavior).
+          window.location.hash = hash;
+        });
+      });
+    });
+  </script>
+</body>
+</html>

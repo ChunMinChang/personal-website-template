@@ -8,22 +8,22 @@ body {
   min-height: auto;
 }
 
-#section1 {
+#about {
   background-color: #1E88E5;
 }
 
-#section2 {
+#experience {
   background-color: #673ab7;
 }
 
-#section3 {
+#works {
   background-color: #ff9800;
 }
 
-#section4-1 {
+#item-1 {
   background-color: #00bcd4;
 }
 
-#section4-2 {
+#item-2 {
   background-color: #009688;
 }

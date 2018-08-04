@@ -139,7 +139,7 @@
               <div class="card-body">
                 <h4 class="card-title">Work 1</h4>
                 <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">Read more</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#work1">Read more</button>
               </div>
             </div>
 
@@ -148,7 +148,7 @@
               <div class="card-body">
                 <h4 class="card-title">Work 2</h4>
                 <p class="card-text">Some example text.</p>
-                <a href="#" class="btn btn-primary">Read more</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#work2">Read more</button>
               </div>
             </div>
 
@@ -254,6 +254,51 @@
           </div>
         </div>
       </div>
+
+      <!-- Modals for Works -->
+
+      <!-- Work 1 Modal -->
+      <div class="modal fade" id="work1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Work 1</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              Description of the work here
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div><!-- End of Work 1 Modal-->
+
+      <!-- Work 2 Modal -->
+      <div class="modal fade" id="work2">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Work 2</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              Description of the work here
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div><!-- End of Work 2 Modal-->
+
     </div>
   </section>
 

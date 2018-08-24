@@ -11,6 +11,24 @@ nav .dropdown-menu {
   padding-top: 70px;
   padding-bottom:70px;
   min-height: auto;
+
+  color: white;
+  font-size: 18px;
+}
+
+.section h1 {
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 20px;
+}
+
+.section h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 #about {

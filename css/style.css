@@ -35,6 +35,17 @@ nav .dropdown-menu {
   background-color: #1E88E5;
 }
 
+#about .icon-list-inline {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#about .icon-list-inline li {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
 #experience {
   background-color: #673ab7;
 }

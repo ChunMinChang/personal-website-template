@@ -2,6 +2,11 @@ body {
   position: relative;
 }
 
+nav .dropdown-menu {
+  /* Force to make width smaller. */
+  min-width: 0px;
+}
+
 .section {
   padding-top: 70px;
   padding-bottom:70px;
